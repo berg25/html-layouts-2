@@ -1,0 +1,49 @@
+.top-boxes{
+  display:flex;
+  height: 100px;
+}
+
+.small-box{
+  flex:1;
+  width: calc(100%/3);
+  height:100%;
+}
+.large-box{flex:2;
+           height:100%;
+         }
+
+.red{ background: red;}
+
+.blue{Background:blue;}
+
+.gray{
+  Background:gray;
+}
+
+.larger-boxes{
+  display:flex;
+  height:300px;
+  margin-bottom: 20px;
+}
+
+footer{
+  display:flex;
+  width:100%;
+  height:100px;
+}
+
+.smallest-box{
+  width: 80%;
+  height:100%;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.red-container{
+  display:flex;
+  justify-content:center;
+
+}
